@@ -4,7 +4,7 @@
 
 # ETools Youtube Downloader
 
-ETools YouTube Video Downloader is a simple YouTube video downloader using yt-dlp, for use by all python users and other digital creators.
+ETools YouTube Downloader is a simple YouTube video downloader using yt-dlp, for use by all python users and other digital creators.
 
 
 ## Authors
