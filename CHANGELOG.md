@@ -7,3 +7,8 @@
 ```
 -Added github repository to PyPi page.
 ```
+## V1.0.2 (12/24/24)
+```
+-Updated README.md to include all current features.
+  -Removed roadmap section.
+```
