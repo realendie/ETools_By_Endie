@@ -17,3 +17,7 @@
 -Fixed convert_file function not responding in CMD.
 -Tested higher quality video downloads.
 ```
+## V1.1.0 (12/29/24)
+```
+-Formated using black.
+```
