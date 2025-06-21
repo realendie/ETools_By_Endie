@@ -10,13 +10,10 @@ setup(
     author_email="enderprooffical@gmail.com",
     license="MIT",
     license_files="LICENSE",
-    version="1.1.0",
+    version="1.1.1",
     packages=find_packages(),
     install_requires=[
-        "darkdetect==0.8.0",
-        "packaging==24.2",
-        "yt-dlp",
-        "ffmpeg",
+        "ffmpeg==1.4",
     ],
     keywords=[
         "python",
