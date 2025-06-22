@@ -25,7 +25,9 @@ setup(
         "mp4",
         "youtube-dl",
         "yt-dlp",
-        "ffmpeg",
+    ],
+    install_requires=[
+        "ffmpeg==1.4",
     ],
     short_description="ETools is an open-source python package that allows you to many things with ease, using command prompt.",
     long_description=long_description,
