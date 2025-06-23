@@ -1,27 +1,33 @@
 import os
 import ffmpeg
+from pyfiglet import Figlet
+import download_video
+import convert_file
 
-def download_video():
-    link = input("Enter YouTube Video URL: ")
-    download_location = input("Enter download location: ")
-    if link and download_location:
-        try:
-            os.system(
-                f'yt-dlp -f best -o "{download_location}/%(title)s.%(ext)s" "{link}" -S res:1080'
-            )
-            print("Success", "Download completed!")
-        except Exception as e:
-            print("Error", f"An error occurred: {e}")
+# RED TEXT = \033[31m
+# YELLOW TEXT = \033[33m
+# RESET TEXT COLOR = \033[0m
+
+
+def select_tool():
+    select_function = input(
+        "Select a function:\n1. Download Video\n2. Convert File\n3. Exit\n\n"
+    )
+
+    if select_function == "1":
+        download_video.download_video()
+    elif select_function == "2":
+        convert_file.convert_file()
+    elif select_function == "3":
+        print("\nExiting the program. Goodbye!")
+        quit()
     else:
         print(
-            "Error", "Please provide a valid YouTube URL and download location."
+            "\n\033[31mERROR: \033[33mYou selected an invalid function. Please try again.\n\033[0m"
         )
+        select_tool()
 
-def convert_file():
-    try:
-        finput = input("Enter the input file path: ")
-        foutput = input("Enter the output file path: ")
-        (ffmpeg.input(finput).output(foutput).run())
-        print("Conversion Complete")
-    except Exception as e:
-        print(f"{e}")
+
+big = Figlet(font="big")
+print(big.renderText("ETools By Endie"))
+select_tool()

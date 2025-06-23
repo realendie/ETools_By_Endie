@@ -1,38 +1,27 @@
-
 ![Logo](https://i.ibb.co/80xDDsg/ETools-Logo.png)
 
+# EToolsByEndie
 
-# ETools 
-
-ETools is an open-source python package that allows you to many things with ease, using command prompt.
-
+EToolsbyEndie is a Python utility that allows user to download YouTube videos off the web and convert files to other file formats using ffmpeg.
 
 ### Authors
 
 - [**Wyatt Johnson**](https://github.com/realendie)
 
-
 ### Features
 
-- Ability to download any YouTube video free of charge.
-- Ability to convert files to most standard file types.
+- Ability to download YouTube videos directly off the web to your commputer.
+- Ability to change the file format of files.
 
 ### Installation
 
-To install ETools YouTube Downloader run the command:
+To install EToolsByEndie you can either install the python package or install the .exe file.
 
-```
-pip install EToolsbyEndie
-```   
+**Python Package Installation:**
+`pip install EToolsByEndie`
 
-## How to Use
+**EXE Installation:**
+*Note: If using the .exe file make sure to install all requirements listed in `requirements.txt`*
 
-**YouTube Video Downloading:**
-
-To download a YouTube video run the command
-```download_video``` in command prompt.
-
-**File Type Conversion:**
-
-To convert a file type run the command
-```convert_file``` in command prompt.
+1. Go to `github.com/realendie/ETools_By_Endie/releases` and install the latest installation.
+2. Enjoy!
