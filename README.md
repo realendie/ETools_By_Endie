@@ -21,6 +21,7 @@ To install EToolsByEndie you can either install the python package or install th
 `pip install EToolsByEndie`
 
 **EXE Installation:**
+*Note: If using the .exe file make sure to install all requirements listed in `requirements.txt`*
 
 1. Go to `github.com/realendie/ETools_By_Endie/releases` and install the latest installation.
 2. Enjoy!
