@@ -10,7 +10,7 @@ setup(
     author_email="enderprooffical@gmail.com",
     license="MIT",
     license_files="LICENSE",
-    version="1.1.1",
+    version="2.0.0",
     packages=find_packages(),
     keywords=[
         "python",
@@ -28,8 +28,9 @@ setup(
     ],
     install_requires=[
         "ffmpeg==1.4",
+        "pyfiglet==1.0.3",
     ],
-    short_description="ETools is an open-source python package that allows you to many things with ease, using command prompt.",
+    short_description="EToolsByEndie is a Python utility that allows user to download YouTube videos off the web and convert files to other file formats using ffmpeg.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     entry_points={
