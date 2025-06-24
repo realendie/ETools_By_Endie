@@ -15,13 +15,4 @@ EToolsbyEndie is a Python utility that allows user to download YouTube videos of
 
 ### Installation
 
-To install EToolsByEndie you can either install the python package or install the .exe file.
-
-**Python Package Installation:**
-`pip install EToolsByEndie`
-
-**EXE Installation:**
-*Note: If using the .exe file make sure to install all requirements listed in `requirements.txt`*
-
-1. Go to `github.com/realendie/ETools_By_Endie/releases` and install the latest installation.
-2. Enjoy!
+To install EToolsByEndie go to `https://github.com/realendie/ETools_By_Endie/releases/` and download the latest release.
