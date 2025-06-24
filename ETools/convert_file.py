@@ -17,3 +17,5 @@ def convert_file():
         print("Conversion Complete")
     except Exception as e:
         print(f"{e}")
+
+convert_file()
