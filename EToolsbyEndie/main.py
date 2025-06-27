@@ -1,5 +1,3 @@
-import os
-import ffmpeg
 from pyfiglet import Figlet
 
 # RED TEXT = \033[31m
