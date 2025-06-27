@@ -1,12 +1,14 @@
 import os
 import ffmpeg
 from pyfiglet import Figlet
-import download_video
-import convert_file
 
 # RED TEXT = \033[31m
 # YELLOW TEXT = \033[33m
 # RESET TEXT COLOR = \033[0m
+
+
+big = Figlet(font="big")
+print(big.renderText("ETools By Endie"))
 
 
 def select_tool():
@@ -15,9 +17,9 @@ def select_tool():
     )
 
     if select_function == "1":
-        download_video.download_video()
+        import download_video
     elif select_function == "2":
-        convert_file.convert_file()
+        import convert_file
     elif select_function == "3":
         print("\nExiting the program. Goodbye!")
         quit()
@@ -28,6 +30,4 @@ def select_tool():
         select_tool()
 
 
-big = Figlet(font="big")
-print(big.renderText("ETools By Endie"))
 select_tool()
