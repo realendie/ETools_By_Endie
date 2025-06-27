@@ -4,11 +4,13 @@ from pyfiglet import Figlet
 
 # RED TEXT = \033[31m
 # YELLOW TEXT = \033[33m
+# BLUE TEXT = \033[34m
 # RESET TEXT COLOR = \033[0m
 
 
 big = Figlet(font="big")
-print(big.renderText("ETools By Endie"))
+title_text = big.renderText("ETools By Endie")
+print(f"\033[34m{title_text}\033[0m")
 
 
 def select_tool():
