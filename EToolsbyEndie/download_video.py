@@ -19,3 +19,5 @@ def download_video():
             print("Error", f"An error occurred: {e}")
     else:
         print("Error: Please provide a valid YouTube URL and download location.")
+
+download_video()
