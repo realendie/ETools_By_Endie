@@ -71,3 +71,7 @@ Restored
 
 Added - Error detection with colors
 Fixed - All functions running at program start
+
+## V2.1.1 (6/28/25)
+
+Fixed - Installation instructions in `README.md`
