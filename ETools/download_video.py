@@ -17,7 +17,17 @@ def download_video():
             print("Success", "Download completed!")
         except Exception as e:
             print("Error", f"An error occurred: {e}")
+    elif not link:
+        print("\033[31mError", "\033[33mPlease provide a valid YouTube URL.\033[0m")
+        download_video()
+    elif not download_location:
+        print(
+            "\033[31mError",
+            "\033[33mPlease provide a valid download location.\033[0m",
+        )
+        download_video()
     else:
         print("Error: Please provide a valid YouTube URL and download location.")
+
 
 download_video()

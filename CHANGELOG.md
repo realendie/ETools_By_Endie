@@ -66,3 +66,8 @@ Restored
 --------
 - Re-added requirements section to setup.py after earlier removal.
 ```
+
+## V2.1.0 (6/27/25)
+
+Added - Error detection with colors
+Fixed - All functions running at program start
