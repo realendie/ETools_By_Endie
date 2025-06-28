@@ -2,7 +2,7 @@
 
 # EToolsByEndie
 
-EToolsbyEndie is a Python utility that allows user to download YouTube videos off the web and convert files to other file formats using ffmpeg.
+EToolsByEndie is a Python utility that allows users to download YouTube videos and convert files to other formats using ffmpeg.
 
 ### Authors
 
@@ -10,9 +10,24 @@ EToolsbyEndie is a Python utility that allows user to download YouTube videos of
 
 ### Features
 
-- Ability to download YouTube videos directly off the web to your commputer.
-- Ability to change the file format of files.
+- Download YouTube videos directly to your computer.
+- Convert files to different formats.
 
 ### Installation
 
-To install EToolsByEndie go to `https://github.com/realendie/ETools_By_Endie/releases/` and download the latest release.
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/realendie/ETools_By_Endie.git
+2. Install dependencies:
+
+   ```bash
+   pip install ffmpeg==1.4 pyfiglet==1.0.3
+   ```
+
+3. Run the app:
+
+   ```bash
+   cd ETools_By_Endie/ETools
+   python main.py
+   ```
